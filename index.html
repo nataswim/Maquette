@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwimApp 2025</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/counters.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="haut">
+            <a href="#" class="info"><i class="fas fa-map-marker-alt"></i> Parthenay, Nouvelle Aquitaine</a>
+            <a href="#"  class="info"><i class="fas fa-envelope"></i> contact@nataswim.app</a>
+            <a href="#"  class="info"><i class="fas fa-phone"></i> +33 (06)44-24-87-11</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="#">
+                    <img src="assets/logos/Logo_nataswim_app_5.png" alt="Logo SwimApp" style="width: 100px; height: 100px;" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-links" href="#">🏊 Programme</a></li>
+                        <li class="nav-item"><a class="nav-links" href="#">🏊 Fonctionnalités</a></li>
+                        <li class="nav-item"><a class="nav-links" href="#">🏊 Formules</a></li>
+                        <li class="nav-item"><a class="nav-links" href="#">🏊 Mon compte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/banner/nataswimapp0.jpg" class="d-block w-100" alt="Image 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Bienvenue sur SwimApp</h5>
+                <p>Découvrez notre application innovante pour les amateurs de natation.</p>
+                <a href="#" class="btn-nataswim">En savoir plus</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/banner/nataswimapp1.jpg" class="d-block w-100" alt="Image 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Analyse de Performance</h5>
+                <p>Suivez vos progrès et améliorez vos performances.</p>
+                <a href="#" class="btn-nataswim">Détails</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/banner/nataswimapp2.jpg" class="d-block w-100" alt="Image 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Entraînements Personnalisés</h5>
+                <p>Créez des entraînements adaptés à vos objectifs.</p>
+                <a href="#" class="btn-nataswim">Essayer</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/banner/nataswimapp3.jpg" class="d-block w-100" alt="Image 4">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Communauté Active</h5>
+                <p>Rejoignez une communauté de passionnés de natation.</p>
+                <a href="#" class="btn-nataswim">Rejoindre</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/banner/nataswimapp4.jpg" class="d-block w-100" alt="Image 5">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Simple et Efficace</h5>
+                <p>Une interface intuitive pour une expérience utilisateur optimale.</p>
+                <a href="#" class="btn-nataswim">Commencer</a>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Précédent</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+    </button>
+</div>
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="assets/icones/fitness-icon-blue-3.png" alt="NataSwim'App 1.0" style="width: 100px; height: 100px;" class="mb-3">
+                    <h3>Progresser </h3>
+                    <p>Recevez vos entraînements adaptés à votre profil, vos objectifs, et vos zones d’intensité.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="assets/icones/fitness-icon-purple-1.png" alt="NataSwim'App 1.0" style="width: 100px; height: 100px;" class="mb-3">
+                    <h3>Préparer</h3>
+                    <p>Suivez des plans de préparation spécifique de 12 à 18 semaines pour arriver dans la forme de votre vie le jour J.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="assets/icones/fitness-icon-yellow-6.png" alt="NataSwim'App 1.0" style="width: 100px; height: 100px;" class="mb-3">
+                    <h3>Partager</h3>
+                    <p>Suivez et partager toutes les préparations spécifiques de votre communauté.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="user-reviews py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Avis des utilisateurs</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/3.png" alt="User 1" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <h5 class="card-title">Kevin Monceau</h5>
+                            <p class="text-muted">"L'application a complètement transformé ma façon de travailler. Merci pour cet outil incroyable !"</p>
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/1.jpg" alt="User 2" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <h5 class="card-title">Sullivan TRAVERS</h5>
+                            <p class="text-muted">"Une interface intuitive et des fonctionnalités puissantes. Je recommandet !"</p>
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/2.png" alt="User 3" class="rounded-circle mb-3" style="width: 80px; height: 80px;">
+                            <h5 class="card-title">Pascal BOUCAULT</h5>
+                            <p class="text-muted">"Un excellent service  et une application qui tient ses promesses. Bravo à l'équipe !"</p>
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <section class="app-presentation py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Téléchargez <span class="text-primary">Notre Application</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis nisi at orci euismod gravida. Quisque auctor, libero at tincidunt cursus, arcu purus efficitur est, a ullamcorper turpis felis non elit.</p>
+                    <ul class="list-unstyled mt-3">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Facile à utiliser</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Analyses avancées</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Mises à jour en temps réel</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-primary me-2">Commencer</a>
+                        <a href="#" class="btn btn-outline-secondary">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/images/app.png" alt="Application" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-3 bg-light text-center">
+                <i class="fa-solid fa-person-swimming fa-4x mb-3"></i>
+                <h4>Cadre 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis nisi at orci euismod gravida. Quisque auctor,</p>
+                <a href="#" class="btn btn-primary mt-2">En savoir plus</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-3 bg-2 text-white text-center">
+                <i class="fas fa-water-ladder fa-4x mb-3"></i>
+                <h4>Cadre 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis nisi at orci euismod gravida. Quisque auctor,</p>
+                <a href="#" class="btn btn-light mt-2">Détails</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-3 bg-light text-center">
+                <i class="fas fa-calendar fa-4x mb-3"></i>
+                <h4>Cadre 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis nisi at orci euismod gravida. Quisque auctor,</p>
+                <a href="#" class="btn btn-primary mt-2">Découvrir</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="counters-section text-white py-5">
+    <div class="container text-center">
+        <h3 class="mb-5">NataSwim'App 1.0</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="counter" data-target="399">0</h2>
+                <p>utilisateurs</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="counter" data-target="160">0</h2>
+                <p>Coachs</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="counter" data-target="513">0</h2>
+                <p>Clubs</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="counter" data-target="199">0</h2>
+                <p>Amateurs</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <section class="bg-light py-5">
+        <h3>Bibliothèque de vidéos</h3> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 video">
+                    <iframe class="w-100" height="200" src="https://www.youtube.com/embed/B4UepBRvOJ8" 
+                        title="nataswim App 1.0" allowfullscreen>
+                    </iframe>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 video">
+                    <iframe class="w-100" height="200" src="https://www.youtube.com/embed/JSzsadK7T3o" 
+                        title="nataswim App 1.0" allowfullscreen>
+                    </iframe>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 video">
+                    <iframe class="w-100" height="200" src="https://www.youtube.com/embed/P7XXJJb5y74" 
+                        title="nataswim App 1.0" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="container my-5">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Identi</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entrez votre email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">MDP</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre mot de passe">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Connexion</button>
+        </form>
+    </div>
+
+   
+
+
+
+    <footer class="footer text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>L'univers N2S</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis nisi at orci euismod gravida.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Découvrir</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Votre programme</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Dossier de la semaine</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Voter communauté</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">CGU / CGV</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-envelope"></i> info@nataswim.app</a></li>
+                        <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-phone"></i> +33 00-00-00-00</a></li>
+                        <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt"></i> Parthenay, Nouvelle Acquitaine</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="mb-3">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>© 2025 SwimApp</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

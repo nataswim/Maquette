@@ -1,0 +1,20 @@
+
+
+bootstrap :
+https://getbootstrap.com
+
+Maquettage interface 
+
+background-color: #efefef;
+background-color: #EEEEEE;
+background-color: #5bcaca;
+
+
+Bouton
+background-color: #004F59;
+border-color: #DDDDDD;
+hover
+background-color: #cd0a0a;
+
+
+Arborescence de l'application 
